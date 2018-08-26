@@ -1,0 +1,49 @@
+		<div class="portfolioContainer">
+			
+			<div class="p-item projects">
+				<section class="about-section section">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="heading">
+									<h3><b>About me</b></h3>
+									<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+								</div>
+							</div><!-- col-sm-4 -->
+							<div class="col-sm-8">
+								<p class="margin-b-50">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque 
+								sit amet sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nulla maximus pellentes que velit, quis consequat nulla effi citur at. 
+								Maecenas sed massa tristique.Duis non volutpat arcu, eu mollis tellus. 
+								Sed finibus aliquam neque sit amet sodales. Lorem ipsum dolor sit amet, 
+								consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur 
+								adipiscing elit. Nulla maximus pellentes que velit, quis consequat nulla 
+								effi citur at.Maecenas sed massa tristique.</p>
+							</div><!-- col-sm-6-->
+					
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+			</div><!-- p-item -->
+			
+			<div class="p-item extra">
+				<a href="images/portfolio-7-600x800.jpg" data-fluidbox>
+					<img src="images/portfolio-7-600x800.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item personal">
+				<a href="images/portfolio-2-600x400.jpg" data-fluidbox>
+					<img src="images/portfolio-2-600x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item p-item-2 extra">
+				<a class="img" href="images/portfolio-8-300x400.jpg" data-fluidbox>
+					<img src="images/portfolio-8-300x400.jpg" alt=""></a>
+				<a class="img" href="images/portfolio-9-300x400.jpg" data-fluidbox>
+					<img src="images/portfolio-9-300x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+		
+		</div><!-- portfolioContainer -->
