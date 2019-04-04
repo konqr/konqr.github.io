@@ -53,18 +53,22 @@ h4{ font-size: 1.3em; }
 h5{ font-size: 1em; }
 h6{ font-size: .9em; letter-spacing: 1px; }
 
-a, button{ display: inline-block; text-decoration: none; color: inherit; line-height: 1; 
+a.normal, button{ display: inline-block; text-decoration: none; color: #FFA804; line-height: 1; 
 	-webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
 
+a.white{ display: inline-block; text-decoration: none; color: #720573; line-height: 1; 
+	-webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
+	
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #FFA804; }
+a b.light-color:hover{ text-decoration: none; color: inherit; }
+
 
 b{ font-weight: 600; }
 
 img{ width: 100%; }
-
-li{ list-style: none; display: inline-block; }
+ol { list-style-type: upper-roman ; display: inline-block;}
+ul li{ list-style: none; display: inline-block; }
 
 span{ display: inline-block; }
 
@@ -98,7 +102,7 @@ b.max-bold{ font-weight: 700; }
 
 .font-yellow{ color: #FFA600; }
 .font-yellowish{color:#F19115;}
-.font-semi-white{ color: #ddd; }
+.font-semi-white{ color: #dd; }
 
 .font-lite-black{ color: #999; }
 
@@ -283,4 +287,47 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+
+/* Style the tab */
+.tab {
+font-family: verdana;
+color: #2F2F2F;
+  overflow: hidden;
+  border: none;
+  background-color: none;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+  
+}
+.tabcontent .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.tabcontent .list > li:before{ content: ''; position: absolute; top: 20%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #000; }
 

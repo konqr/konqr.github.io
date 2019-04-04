@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+	<?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
 	<title>Konark Jain - Portfolio</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -143,6 +144,85 @@
 		</div><!-- container -->
 	</section><!-- about-section -->
 	
+		<section class="portfolio-section section center-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>What I do</b></h3>
+						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+					</div>
+				</div><!-- col-sm-12 -->
+				<div class="col-sm-8">
+				<div class="tab">
+				  <button class="tablinks" onclick="openCity(event, 'Projects')" >Projects</button>
+				  <button class="tablinks" onclick="openCity(event, 'Publications')">Publications</button>
+				  <button class="tablinks" onclick="openCity(event, 'Blogs')">Blogs</button>
+				  <button class="tablinks" onclick="openCity(event, 'Misc')">Misc.</button>
+				</div>
+
+				<!-- Tab content -->
+				<div id="Projects" class="tabcontent">
+				  <p>
+					I have been doing projects in AI both in internships and independently. I typically like to work alone but I have done some group projects as well. You may click on the following to know more about them:
+					<br>
+					<br>
+					<ol> 
+					<li> Similarity of small texts using keyword extraction and similarity measures between keywords. <br> <!--<a class="white" href="index.html"> Link to Project </a>--> </li>
+					<br>
+					<li> Generative Adversarial Networks for Face Generation <br> <!--<a class="white" href="index.html"> Link to Project </a>--> </li>
+					<br>
+					<li> Self Balancing Cycle <br> <!--<a class="white" href="index.html"> Link to Project </a>--> </li>
+					<br>
+					<li> Parallel Tempering for Bayesian Neural Networks <br> <!--<a class="white" href="index.html"> Link to Project </a>--> </li>
+					<br>
+					<li> Convolutional Neural Network for Face Recognition <br> <!--<a class="white" href="index.html"> Link to Project </a>--> </li>
+					<br>
+					<li> Human Activity Recognition in RGB-D Videos using conventional Machine Learning <br> <!--<a class="white" href="index.html"> Link to Project </a>--> </li>
+					<br>
+					<li> RBC, WBC and Platelet counter in blood smear images using Image Processing <br> <!--<a class="white" href="index.html"> Link to Project </a>--> </li>
+					</ol>
+				  </p>
+				</div>
+
+				<div id="Publications" class="tabcontent">
+				  <p> I am always looking for projects with research aspects to them. I have been fortunate enough to have written three papers during my internships. They are listed below:</p>
+				  <ol>
+				  <br>
+				  <li> R. Chandra, K. Jain, A. Kapoor, <a class="white" href="https://arxiv.org/abs/1811.08687"> "Surrogate-assisted parallel tempering for Bayesian neural learning" </a>, in IEEE TNNLS (Under Review)</li>
+				  <br>
+				  <li> R. Chandra, K. Jain, R. Deo, S. Cripps, <a class="white" href="https://arxiv.org/abs/1811.04343"> "Langevin-gradient parallel tempering for Bayesian neural learning" </a> , in Neurocomputing (Under Review) </li>
+				  <br>
+				  <li> D.K. Vishwakarma and K. Jain, "Human Activity Recognition using Movement Polygon in 3-D Posture Data" , in IEEE Transactions on Human-Machine Systems (Under Review)</li>
+				  <br>
+				  </ol>
+				</div>
+
+				<div id="Blogs" class="tabcontent">
+				 <p> I try to write when I can. I write about anything that interests me which to be honest is an immensely broad category. I also am extremely fond of Urdu and Hindi poetry. I will try to link some of my favourite passages here too. </p>
+				 <br>
+				 <p> Check out some of my online articles here:</p>
+				 <br>
+				  <ol> 
+				  <li> <b><a class = "white"  href="https://medium.com/@konark145/a-narcissistic-view-of-my-interest-in-math-220168bcf84"> A Narcissistic View of My Interest in Math</a> </b> - Published under Noteworthy Journal on <a href="https://medium.com">Medium</a> </li>
+				  <br>
+				  <li> <b><a class = "white"  href="https://blog.usejournal.com/these-were-the-people-94c23f8f8421"> These were the People</a> </b> - Published under Noteworthy Journal on <a href="https://medium.com">Medium</a> </li>
+				  <br>
+				  <li> <b><a class = "white"  href="https://medium.com/@konark145/what-makes-math-mysterious-some-brilliant-results-in-math-de9b02cd7d6c"> What makes Math mysterious - some brilliant results in Math</a> </b> - Published on <a href="https://medium.com">Medium</a> </li>
+				  <br>
+				  </ol>
+				</div>
+				
+				<div id="Misc" class="tabcontent">
+				  <p> Coming Soon! </p>
+				</div>
+				</div>
+			</div><!-- row -->
+			
+			
+		</div><!-- container -->
+	</section><!-- portfolio-section -->
+	
 	<section class="experience-section section">
 		<div class="container">
 			<div class="row">
@@ -152,6 +232,7 @@
 						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
 					</div>
 				</div><!-- col-sm-4 -->
+				
 				<div class="col-sm-8">
 				
 					<div class="experience margin-b-50">
@@ -160,17 +241,17 @@
 						<h6 class="margin-t-10">May 2018 - July 2018</h6>
 						<p class="font-semi-white margin-tb-30">
 						<ul class="list margin-b-30">
-						<li> Interned in the summer at the end of my sophomore year at the Centre for Translational Data Science, University of Sydney, Australia on the topic of <a href="https://github.com/sydney-machine-learning/parallel-tempering-neural-net">Parallel Tempering for Bayesian Neural Nets</a> under Prof. Sally Cripps and Dr. Rohitash Chandra.</li>
+						<li> Interned in the summer at the end of my sophomore year at the Centre for Translational Data Science, University of Sydney, Australia on the topic of <a class = "normal" href="https://github.com/sydney-machine-learning/parallel-tempering-neural-net">Parallel Tempering for Bayesian Neural Nets</a> under Prof. Sally Cripps and Dr. Rohitash Chandra.</li>
 						<li> Developed the methodology of using parallel tempering - a multi chain monte carlo markov chain (MCMC) sampling technique - on multicore architectures (like high performance computers) for classification and regression tasks.</li>
 						<li> The algorithm cut down the time of computation by a factor of half while retaining the performance of a single chain MCMC technique. </li>
-						<li> Wrote a paper on the same, then took on another project using <a href="https://github.com/sydney-machine-learning/surrogate-assisted-parallel-tempering">surrogate assisted optimization</a> for reducing the time of computation by another factor of two on large data problems while the performance dipped by a minuscule amount.</li>
+						<li> Wrote a paper on the same, then took on another project using <a class = "normal" href="https://github.com/sydney-machine-learning/surrogate-assisted-parallel-tempering">surrogate assisted optimization</a> for reducing the time of computation by another factor of two on large data problems while the performance dipped by a minuscule amount.</li>
 						<li> Used Python language and coded the MCMC algorithm along with the Parallel Tempering and Surrogate Assisted Parallel Tempering from scratch using multiprocessing programming, neural networks and surrogate optimization.</li></ul></p>
 						<h4><b>Defence Research and Development Organization</b></h4>
 						<h5 class="font-yellow"><b>Research Intern</b></h5>
 						<h6 class="margin-t-10">December 2017 - January 2018</h6>
 						<p class="font-semi-white margin-tb-30">
 						<ul class="list margin-b-30">
-						<li> Interned at the Defence Terrain Research Laboratory at the DRDO Complex in Delhi, India on the topic of <a href="https://github.com/konqr/CNN-for-face-rec">Unconstrained Face Recognition using Convolutional Neural Networks (CNN)</a> </li>
+						<li> Interned at the Defence Terrain Research Laboratory at the DRDO Complex in Delhi, India on the topic of <a class = "normal" href="https://github.com/konqr/CNN-for-face-rec">Unconstrained Face Recognition using Convolutional Neural Networks (CNN)</a> </li>
 						<li> Coded a CNN for multilabel classification of real world images of faces in the wild from scratch using the Tensorflow library of Python. </li>
 						<li> The major challenge I overcame in the development of the software was the recognition of images in unconstrained environments and with a variety of poses. </li>
 						<li> The algorithm developed was able to show results at par with the current state-of-the-art with near to perfect accuracy for some datasets. </li>
@@ -180,7 +261,7 @@
 						<h6 class="margin-t-10">May 2017 - July 2017</h6>
 						<p class="font-semi-white margin-tb-30">
 						<ul class="list margin-b-30">
-						<li> My very first intern experience was under <a href="http://www.dtu.ac.in/Web/Departments/Electronics/faculty/dkvishwakarma.php"> Dr. D.K. Vishwakarma </a> from the ECE Department of DTU, New Delhi. I worked on Human Activity Recognition using SVMs.</li>
+						<li> My very first intern experience was under <a class="normal" href="http://www.dtu.ac.in/Web/Departments/Electronics/faculty/dkvishwakarma.php"> Dr. D.K. Vishwakarma </a> from the ECE Department of DTU, New Delhi. I worked on Human Activity Recognition using SVMs.</li>
 						<li> We classified MS-Kinect captured RGB-D Video Sequences to classify twenty different activities in real time.  </li>
 						<li> We formulated a 4D to 1D dimension reduction technique named "Polygon Mapping" for such videos for effective computation. </li>
 						<li> The classifier was able to detect activities with a mean accuracy of 94% across various datasets. </li>
@@ -207,6 +288,8 @@
 		</div><!-- container -->
 		
 	</section><!-- experience-section -->
+	
+
 	
 	<section class="education-section section">
 		<div class="container">
@@ -259,6 +342,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	
 	
 	<!-- SCIPTS -->
+	
 	
 	<script src="common-js/jquery-3.2.1.min.js"></script>
 	
