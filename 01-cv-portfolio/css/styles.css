@@ -331,3 +331,17 @@ color: #2F2F2F;
 .tabcontent .list > li:before{ content: ''; position: absolute; top: 20%; left: 0; height: 10px; 
 	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #000; }
 
+
+.line-icon{ display: block; height: 150px; width: 300px; background-size: cover; }
+
+.icon-rocket{ background-image: url(../../images/rl-port.png); background-position: 0px 0; }
+.icon-rl{ background-image: url(../../images/rl-port.png); background-position: 0px 0; }
+.icon-fp{ background-image: url(../../images/fingerprint.png); background-position: 0px 0; }
+.icon-fr{ background-image: url(../../images/fractal.jpg); background-position: 0px 0; }
+.icon-mine{ background-image: url(../../images/mine.png); background-position: 0px 0; }
+.icon-pid{ background-image: url(../../images/pid.png); background-position: 0px 0; }
+.icon-sim{ background-image: url(../../images/similarity.png); background-position: 0px 0; }
+.icon-blood{ background-image: url(../../images/blood.jpg); background-position: 0px 0; }
+.icon-gan{ background-image: url(../../images/gan.png); background-position: 0px 0; }
+.icon-cut{ background-image: url(../../images/project.jpg); background-position: 120px 0; }
+.icon-star{ background-image: url(../../images/project.jpg); background-position: 60px 0; }

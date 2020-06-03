@@ -33,8 +33,8 @@
 						<div class="info">
 							<i class="icon ion-ios-location-outline"></i>
 							<div class="right-area">
-								<h5>H-145 Sector 10 DLF</h5>
-								<h5>Faridabad, India 121006</h5>
+								<h5> <a href="https://www.linkedin.com/in/konarkj">LinkedIn</a> <br>
+								<a href="https://www.twitter.com/konark__jain">Twitter</a> </h5>
 							</div><!-- right-area -->
 						</div><!-- info -->
 					</div><!-- col-sm-4 -->
@@ -71,7 +71,7 @@
 				<div class="col-md-1 col-lg-2"></div>
 				<div class="col-md-10 col-lg-8">
 					<div class="intro">
-						<div class="profile-img"><a href="../personal.html"><img src="images/Dp2.jpg" alt=""></a></div>
+						<div class="profile-img"><a href="../personal.html"><img src="images/Dp3.jpg" alt=""></a></div>
 						<h2><b>Konark Jain</b></h2>
 						<h4 class="font-yellow">A.I. Enthusiast | Final Year Undergrad at IIT Guwahati</h4>
 						<!-- <ul class="information margin-tb-30">
@@ -143,6 +143,8 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- about-section -->
+
+		
 	
 		<section class="portfolio-section section center-text">
 		<div class="container">
@@ -155,14 +157,14 @@
 				</div><!-- col-sm-12 -->
 				<div class="col-sm-8">
 				<div class="tab">
-				  <button class="tablinks" onclick="openCity(event, 'Publications')">Publications</button>			  
-				  <button class="tablinks" onclick="openCity(event, 'Blogs')">Blogs</button>
-				  <button class="tablinks" onclick="openCity(event, 'Projects')" >Projects</button>	
+				  <button class="tablinks" onclick="openCity(event, 'Publications')">Publications</button>	
+				  <button class="tablinks" onclick="location.href='#projects'" >Projects</button>			  
+				  <button class="tablinks" onclick="openCity(event, 'Blogs')">Blogs</button>				  
 				  <button class="tablinks" onclick="openCity(event, 'Certificates')">Certificates</button>
 				</div>
 
-				<!-- Tab content -->
 				<div id="Projects" class="tabcontent">
+
 				  <p>
 					I have been doing projects in AI both in internships and independently. I typically like to work alone but I have done some group projects as well:
 					<br>
@@ -189,10 +191,10 @@
 				  <p> I am always looking for projects with research aspects to them. I have been fortunate enough to have written three papers during my internships. They are listed below:</p>
 				  <ol>
 				  <br>
+				  <li> R. Chandra, K. Jain, A. Kapoor, A. Aman, <a class="white" href="https://arxiv.org/abs/1811.08687"> "Surrogate-assisted parallel tempering for Bayesian neural learning" </a>, in Engineering Applications of Artificial Intelligence Journal 2020</li>
+				  <br>
 				  <li> R. Chandra, K. Jain, R. Deo, S. Cripps, <a class="white" href="https://www.sciencedirect.com/science/article/pii/S0925231219308069?via%3Dihub"> "Langevin-gradient parallel tempering for Bayesian neural learning" </a> , in Neurocomputing Journal 2019 </li>
-				  <br>
-				  <li> R. Chandra, K. Jain, A. Kapoor, <a class="white" href="https://arxiv.org/abs/1811.08687"> "Surrogate-assisted parallel tempering for Bayesian neural learning" </a>, in IEEE TNNLS (Under Review)</li>
-				  <br>
+				  <br>				  
 				  <li> D.K. Vishwakarma and K. Jain, "Human Activity Recognition using Movement Polygon in 3-D Posture Data" , in IEEE Transactions on Human-Machine Systems (Under Review)</li>
 				  <br>
 				  </ol>
@@ -239,6 +241,88 @@
 		</div><!-- container -->
 	</section><!-- portfolio-section -->
 	
+	<section class="iconboxes-section section" id="projects">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="heading">
+						<h4><b>Projects</b></h4>
+					</div>
+				</div><!-- col-sm-12 -->
+				
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="iconbox margin-b-30">
+						<i class="line-icon icon-rl"></i>
+						<h5 class="margin-tb-20"><b>Portfolio Management using Reinforcement Learning</b></h5>
+						<p> Developed a Deep Q-Learning Model along with a portfolio management environment for Reinforcement Learning. The
+model can learn to maximise either sharpe ratio or returns or minimize volatility. The model is able to beat the naive approach of assigning equal weights to all stocks when tested on several holdings of a
+popular mutual fund. Future work includes testing of various other RL models to improve the performance of the model and compare the
+performance with the performance of various mutual funds.</p>
+					</div><!-- counter -->
+				</div><!-- col-md-4 -->
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="iconbox margin-b-30">
+						<i class="line-icon icon-fp"></i>
+						<h5 class="margin-tb-20"><b>Fingerprint Counterspoofing</b></h5>
+						<p> Developed a differentiating statistic between a spoof fingerprint and of that of a real person. Classification using this statistic
+was able to match the state of the art with over 90% accuracy. Various texture features were extracted and the feature extraction capabilities of Convolutional Neural Networks were also
+exploited to develop a robust fingerprinting recognition system against modern spoofing techniques.</p>
+					</div><!-- counter -->
+				</div><!-- col-md-4 -->
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="iconbox margin-b-30">
+						<i class="line-icon icon-fr"></i>
+						<h5 class="margin-tb-20"><b>Investigating the Fractal Dimension of Fingerprints</b></h5>
+						<p> On the recent conclusion of a course I took in the chaos theory, I came across the method of texture analysis using fractal dimension calculation of an image. Since fingerprints are visually self similar in the ridges pattern. I then used the box-cutting method for fractal dimension estimation and found that the dimension of the image is around 2.6 which is much higher than that of a non-fractal image's dimension which is usually equal to or below 2. Therefore I concluded that fingerprints indeed possess some fractal nature in them. Further work would be done to test this claim across datasets and applications of this discovery might be pondered upon. </p>
+					</div><!-- counter -->
+				</div><!-- col-md-4 -->
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="iconbox margin-b-30">
+						<i class="line-icon icon-gan"></i>
+						<h5 class="margin-tb-20"><b>GANs for Face Generation</b></h5>
+						<p> Compared Vanilla GAN and DC-GAN for the task of generating face images from a small dataset. Researched on computational expense of GANs for small tasks and ways on how to improve it.</p>
+					</div><!-- counter -->
+				</div><!-- col-md-4 -->
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="iconbox margin-b-30">
+						<i class="line-icon icon-mine"></i>
+						<h5 class="margin-tb-20"><b>Reinforcement Learning for Minecraft</b></h5>
+						<p>The task was to develop a sample efficient reinforcement learning (RL) algorithm to train an agent on the Minecraft game. Researched on various meta-RL methods for this sparse rewards and hierarchical nature of the tasks. Developed and tested Options-Critic Algorithm and compared its performance with several baselines like Rainbow and DDQN.</p>
+					</div><!-- counter -->
+				</div><!-- col-md-4 -->
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="iconbox margin-b-30">
+						<i class="line-icon icon-pid"></i>
+						<h5 class="margin-tb-20"><b>Self-Balancing Cycle Bot</b></h5>
+						<p>Constructed from scratch a bicycle which was able to balance itself and move along a given path without falling. The project’s
+motivation was the development of unmanned delivery systems for two-wheelers. Developed a novel technique of self-weight balancing by using PID Controllers to achieve self-stabilising action in the bicycle.</p>
+					</div><!-- counter -->
+				</div><!-- col-md-4 -->
+				
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="iconbox margin-b-30">
+						<i class="line-icon icon-sim"></i>
+						<h5 class="margin-tb-20"><b>Similarity Measures for Short Text Comparison</b></h5>
+						<p>The task was to generate similarity scores between a customer query of a job and hundreds of options of Resumes for finding
+the perfect match for the job. Challenges included short text nature of the query and scalability. Developed a software which uses word embeddings from pretrained word2vec algorithms and various similarity metrics for
+each option to find the best match. Keyword extraction performed over Resumes text and scraped data from LinkedIn
+profiles.</p>
+					</div><!-- counter -->
+				</div><!-- col-md-4 -->
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="iconbox margin-b-30">
+						<i class="line-icon icon-blood"></i>
+						<h5 class="margin-tb-20"><b>Blood-Smear Image Analysis</b></h5>
+						<p>Used image processing techniques over images from a blood smear on a glass frame for detection of diseases like Malaria. The algorithm was able to report RBC, WBC and Platelet counts and thereafter reported a probability of being ailed by any of
+the five diseases we trained the model to detect.</p>
+					</div><!-- counter -->
+
+				</div><!-- col-md-4 -->
+				
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- progression-section -->
+
 	<section class="experience-section section">
 		<div class="container">
 			<div class="row">
@@ -334,7 +418,7 @@
 							<h5 class="font-yellow"><b>Electronics and Electrical Engineering </b></h5>
 							<h5 class="font-yellow"><b>with a Minor in Mathematics</b></h5>
 							<h6 class="font-lite-black margin-t-10">GRADUATING IN MAY 2020(4 YEARS)</h6>
-							<p class="margin-t-30"> Current CGPA: <br> Major: <b> 8.56/10 </b> <br> Minor: <b> 8.31/10 </b> </p>
+							<p class="margin-t-30"> Current CGPA: <br> Major: <b> 8.63/10 </b> <br> Minor: <b> 8.63/10 </b> </p>
 						</div><!-- education -->
 						
 						<div class="education left">
